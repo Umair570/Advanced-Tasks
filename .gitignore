@@ -1,0 +1,8 @@
+# Ignore serialized ML models
+*.pkl
+*.joblib
+*.safetensors
+*.bin
+
+# Ignore saved transformer model weights folders
+Task1/fine_tune_bert_news/
