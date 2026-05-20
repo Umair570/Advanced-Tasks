@@ -20,7 +20,7 @@ With the vast volume of news articles published online daily, automated text cat
 - **Categorical Insights:** - **High Generalization:** Inspecting my generated confusion matrix reveals an exceptionally high confidence threshold when parsing distinct vocabularies. The model correctly classified **358 out of 397 World articles** and achieved near-perfect isolation in **Sports** (**352 correct predictions**).
   - **Contextual Overlap:** The primary source of misclassification occurred between the **Business** and **Sci/Tech** boundaries (e.g., 47 Business samples classified as Sci/Tech). This behavior aligns logically with real-world reporting patterns, as corporate earnings announcements, modern technological releases, and market evaluations heavily share identical linguistic structures.
 
-  ## **Task 2: End-to-End ML Pipeline with Scikit-learn Pipeline API**
+## **Task 2: End-to-End ML Pipeline with Scikit-learn Pipeline API**
 
 ### **■ Objective of the task**
 Customer churn heavily disrupts long-term subscriber lifetime value. My objective in this project is to construct a production-ready, leak-proof machine learning pipeline using Scikit-learn's `Pipeline` API to automatically clean raw demographic inputs, apply feature scaling and categorical encoding, optimize underlying parameters, and accurately predict customer churn risks.
